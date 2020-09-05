@@ -1,14 +1,14 @@
-# 狂神的小社区开源版
+# Noobbs
 
-![image-20200731093732474](upload/image-20200731093732474.png)
+![image-20200731093732474](upload/image_20200905174455.png)
 
-### 介绍
+### Introduction
 
-> 社区开源版本，精简了代码，改变为单体项目，方便大家一键启动！
+> An open source bbs modified from kuangbbs
 
-> 地址：http://www.kuangstudy.com/ 
+> will be deployed soon!
 
-项目架子主要依赖：
+Major Dependencies:
 - SpringBoot 2.3.0
 - MySQL 5.7
 - MyBatisPlus 3.0.5
@@ -19,38 +19,33 @@
 - layer
 - bootstrap
 - springsecurity
-- 代码自动生成
+- code-generator
 
-### 安装教程
+### Tutorial
 
-1.  执行SQL，创建数据库
-2.  项目导入IDEA 启动
-3.  访问测试！
-4.  自行根据代码逻辑填充测试数据，查看即可！
+1.  build databases with the sql file
+2.  change user invitation settings
+3.  test
+4.  do whatever you want
 
-### 目录说明
+### Content and Structures
 ```shell script
 src/main/java/com/kuang
-- config        配置类
-- controller    controller
-- generator     代码生成器
-- mapper        mapper
+- config        configurations
+- controller    MVC controllers
+- generator     code-generator
+- mapper        mapper: mybatis
 - pojo          pojo
-- result        统一返回结果
+- result        returning data
 - service       service
-- utils         工具类
-- vo            vo对象
-KuangstudyApplication   启动类
+- utils         
+- vo            vo objects
+KuangstudyApplication   start the application!
 
 src/resources
-- static        静态资源
-- templates     页面模板
-- application-dev.properties   配置文件
+- static        
+- templates     
+- application-dev.properties   
 
-kuangshen.sql   数据库文件
+kuangshen.sql   
 ```
-
-### 如何加入狂神的小社区
-
-http://mp.weixin.qq.com/mp/homepage?__biz=Mzg2NTAzMTExNg==&hid=5&sn=5732bda552bcb476e55f678983edfb51&scene=18#wechat_redirect
-
